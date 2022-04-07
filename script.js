@@ -1,0 +1,60 @@
+// 1;
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 == 0 && i % 5 == 0) {
+//     console.log("Trojka, Petka");
+//   } else if (i % 3 == 0) {
+//     console.log("Trojka");
+//   } else if (i % 5 == 0) {
+//     console.log("Petka");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+// 2;
+
+// (function () {
+//   length = 20;
+//   for (let index = 0; index < this.length; index++) {
+//     setTimeout(function () {
+//       console.log(index);
+//     }, index * 200);
+//   }
+// })();
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+// 3;
+// (function () {
+//   // if (navigator.userAgent == "IE7")
+//   if (navigator.userAgent.indexOf("MSIE 7.") != -1) {
+//     alert("Hello World");
+//   }
+// })();
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+//  4;
+// var object = {
+//   alert: (txt) => alert(txt),
+//   confirm: (txt) => confirm(txt),
+// };
+
+// object.alert("Warning: you are about to delete this item!");
+// object.confirm("Are you sure?");
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+// 5;
+// const div = document.querySelector("div");
+// div.addEventListener("mouseover", function (e) {
+//   const divId = e.target.getAttribute("id");
+//   console.log(divId);
+// });
